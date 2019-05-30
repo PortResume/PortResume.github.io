@@ -196,7 +196,7 @@ input[type=submit]:hover {
 
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 600px;
+  max-width: 825px;
   text-align: center;
   font-family: arial;
 }
@@ -206,7 +206,7 @@ input[type=submit]:hover {
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 600px;
+  max-width: 825px;
   text-align: center;
   font-family: arial;
 }
@@ -230,7 +230,7 @@ input[type=submit]:hover {
 
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 600px;
+  max-width: 825px;
   text-align: center;
   font-family: arial;
 }
