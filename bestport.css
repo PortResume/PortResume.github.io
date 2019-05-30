@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/S15GBCm/videoblocks-painting-flag-of-usa-on-old-wood-boards-with-four-different-ways-animation-of-wooden-grunge-american-flag-loop-abstract-flag-background-for-your-text-or-logo-drawing-united-state-of-america-flag-full-hd-and-4k_rabm-vwjb_thumbnail-full07.png");
+  color: grey;
 }
 
 ul {
@@ -73,10 +73,8 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
   max-width: 100%;
   padding: 0px;
-  padding-right: 300px;
 }
 
 .col-25 {
@@ -181,7 +179,7 @@ input[type=submit]:hover {
   display: inline-block;
   padding: 10px 25px;
   color: black;
-  background-color: white;
+  background-color: ;
   text-align: center;
   cursor: pointer;
 }
@@ -206,7 +204,7 @@ input[type=submit]:hover {
   background-color: black;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 350px;
   font-size: 18px;
 }
 
@@ -214,6 +212,8 @@ input[type=submit]:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 100%;
   color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/S15GBCm/videoblocks-painting-flag-of-usa-on-old-wood-boards-with-four-different-ways-animation-of-wooden-grunge-american-flag-loop-abstract-flag-background-for-your-text-or-logo-drawing-united-state-of-america-flag-full-hd-and-4k_rabm-vwjb_thumbnail-full07.png");
+
 
   text-align: center;
   font-family: arial;
@@ -228,6 +228,9 @@ input[type=submit]:hover {
   text-align: center;
   font-family: arial;
   color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.zola.com/daccdc30-34e0-4bb4-b5e3-0d44114cdbde");
+
+
 }
 
 
@@ -239,7 +242,7 @@ input[type=submit]:hover {
   background-color: black;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 350px;
   font-size: 18px;
 }
 
@@ -253,6 +256,8 @@ input[type=submit]:hover {
   text-align: center;
   font-family: arial;
   color:white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/OrioleParkAtCamdenYardsJune2013.jpg/1024px-OrioleParkAtCamdenYardsJune2013.jpg");
+
 
 }
 
@@ -265,7 +270,7 @@ input[type=submit]:hover {
   background-color: black;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 350px;
   font-size: 18px;
 }
 
@@ -273,9 +278,41 @@ input[type=submit]:hover {
   opacity: 0.7;
 }
 
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  text-align: center;
+  font-family: arial;
+  color:white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2017/06/20/jer_0284.jpg?itok=HLxj_bz0&timestamp=1497945569");
+
+
+}
+
+
+.card3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  font-size: 18px;
+}
+
+.card3 button:hover {
+  opacity: 0.7;
+}
+
+
+
+
 .blog1 {
   background-color: grey;
 }
+
 
 .pic4 {
   padding: 150px;
