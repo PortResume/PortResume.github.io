@@ -1,235 +1,236 @@
-<!DOCTYPE html>
-<html>
-<title>PortResume</title>
-<link rel="icon" type="image/gif/png" href="portres.png">
-<meta charset="UTF-8">
+<html lang="en">
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-<style>
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
+<title>PortResume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-    footer {
-      background-color: black;
-      padding: 25px;
-    }
-  </style>
+
+
+    <!-- Custom CSS -->
+    <link href="bestport.css" rel="stylesheet">
+
 </head>
 <body>
 
- 
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="">PortResume</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active">
-        <li><a href="https://portresume.github.io/skylar.pdf">Resume</a></li>
-        
-      </ul>
-      
-    </div>
-  </div>
-</nav>
+  <div class= "hero-image">
+      <div class= "hero-text">
 
 
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-.w3-sidebar { margin-right:500px;  width: 170px;background: white;}
-#main {margin-left: 170px}
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="">
-
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-code w3-xxlarge"></i>
-    <p>projects</p>
-  </a>
-  <a href="#highlights" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>HIGHLIGHTS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-  <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <a class="fa fa-download w3-xxlarge" href="https://portresume.github.io/skylar.pdf" ></a>
-    <p>RESUME</p>
-  </a>
-</nav>
-
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#highlights" class="w3-bar-item w3-button" style="width:25% !important">HIGHLIGHTS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
-    <a href="https://disgruntledvet.github.io/skylar.pdf" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
-
+    <h1 style="font-size:50px">Skylar Barrowman</h1>
+    <p>Combat Veteran Turned Dev Nerd</p>
+    
   </div>
 </div>
+</div>
+  <div id="navbar">
+  <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#blogs">Blogs</a></li>
+  <li><a href="#about">Contact</a></li>
+  <li><a href="#aboutme">The Journey</a></li>
+</ul>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 
-
-<div class="w3-padding-large" id="main">
-  <header class="w3-container w3-padding-32 w3-center " id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Skylar Barrowman</h1>
-    <p>Hacker/Analyst/Researcher</p>
-    <img src="Skylar.png" alt="boy" class="w3-image" width="992" height="1108">
-
-  </header>
-
-
-  <div class="w3-content w3-justify w3-text-grey  w3-padding-64" id="about">
-    <h2 class="w3-text-light-black">About</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>I might be new to the game, but I know how to work hard. A little bit about myself: I am a Combat Veteran turned Cyber Nerd. I have served in two military branches, the Marines Corp and the Army, and currently work as a platform specialist at ZeroFox, the leader in social media security.
-        Let’s start with my military experience. As cheesy as it might sound, if being in the military taught me anything, it’s that you can do anything as long as you put your mind to it and work hard. Think about this- they give one 18 year old kid a gun, another a toolbox, and another a med-kit. The one with the toolbox is tasked with maintaining the helicopters and making sure they run properly. The one with the gun is jumping on that helicopter and flying over the deserts of Afghanistan preparing to fight. The kid with a med-kit is also on that helicopter standing by ready to provide medical attention for that kid with a rifle, just in case anything happens to him. Three young kids who’ve never been to college, mastering three different careers. Careers that lives depend on. I was that 18 year old with a gun. With the right mindset, a little training, and hard work people are capable if anything.
-        I took the lessons I learned in the Marines and the Army, and applied them to everything I do in life. Specifically my career in the cyber world. A little over a year ago, I didn’t have any experience with computers or cyber security, but I had an interest and desire. That was enough to start building my career. I’ve committed to learning more about this industry, and doing all that I can to become successful. In my little bit of time I’ve self-taught multiple program languages, spearheaded research that has been featured on CNN, Wired, Business Insider and many more, and automated multiple projects currently used by ZeroFox. I’m just beginning, and I cannot wait to see what else I’m able to achieve. </p>
-    </div><br>
-
-    <div class="w3-content w3-justify w3-text-grey  w3-padding-64" id="projects">
-        <h2 class="w3-text-light-black">Favorite Projects</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <h2> Wrap it before you tap it </h2>
-        <p><a href="https://github.com/PortResume/wrap-it-before-you-tap-it">check it out on Github</a></p>
-        <p>Do you have muliple domains that you own or want to check multiple url links for viruses, worms, trojans and other kinds of malicious content? Look no further wrapitbeforeyoutapit is here</p>
-        <div><h2> Twacked </h2>
-            <p><a href="https://github.com/PortResume/Twacked">check it out on Github</a></p>
-
-            <p>Find out whos being Hacked by monitoring twitter by using Twacked.</p></div>
-
-            <div><h2> Domain Down </h2>
-                <p><a href="https://github.com/PortResume/Domain-down">check it out on Github</a></p>
-    
-                <p>Own alot of Domains? Want to know when they are down Status code 404?  Want to be notified immediately? Look no further Domain Down will send you a text when this happens.</p></div>
-        </div><br>
-    
-     
-    
-    <style>
-* {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 880px; 
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
   }
 }
-</style>
+</script>
 
 
-    <div class="w3-content w3-justify w3-text-grey  w3-padding-64" id="highlights">
-    <h2 class="w3-text-light-black">Highlights</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <div class="row">
-  <div class="column" >
-    <h3>Automation</h3>
-    <br>
-    <p> - Utilized AWS, Google Drive, JIRA, Keybase, Slack, the ZeroFOX platform, and a series of Python scripts to streamline the process
-of successfully carrying out takedowns of imminent threats to clients’ identities and brands</p>
-  <p> - Executed the removal/takedown of profiles/content on Facebook, Instagram, Twitter, Google+,
-Youtube, LinkedIn, Pastebin, Slack, and more</p>
-  <p>- Analyzed the inefficiencies and pain points of the current takedown workflow and built a series of Python scripts to further
-expedite and automate this process cut down takedown time in half.</p>
-  <p>- Automated the Health Check system for over 300 hundred customers by using different queries pulling information from API with python, increasing efficiency by 75%
- </p>
-  
-  </div>
-  <div class="column" >
-    
-    <h3>ZeroFOX Finds Fortnite V-Buck Scams Running Rampant Online mentioned By WIRED, CNN, Business insider and many other
-popular sources</h3>
+
+<!-- Projects -->
+
+<div class="picture" id="projects">
+
+<div>
+  <h1><b>Projects</b> </h1>
+</div>
+
+
 <br>
-     <div>
-  <p> - Fortnite has 43 million players and growing (based on Jan 2018 figures)</p>
-  <p> - Fortnite is making an estimated $300 million per month on in-game purchases</p>
-  <p>- Over a one month period from early September to early October 2018, me and my team at Zerofox has generated over 53,000 alerts related to Fortnite scams.</p>
-  <p>- The majority of these alerts, 86%, were generated from social media, with 11% coming from web domains and a little over 2% coming from Youtube. Over 4,770 live domains related to fortnite and vbuck scams We found over 1,390 youtube videos with millions of views combined</p>
-  <p>- The ZeroFOX platform has generated 100s of alerts every day on social media posts with links to a single Fortnite scam website, fortnite-gifts.</p>
-  <p>- Considering the scope and reach of these scams and the average age of Fortnite players, understanding what these scams are, where they occur and how users can protect themselves is critical.
- </p>
- <p>- ZeroFOX Finds Fortnite V-Buck Scams Running Rampant Online mentioned By WIRED, CNN, Business insider and many other
-popular sources
- </p>
+<h2 style="text-align:center"></h2>
+
+<div class="card1">
+  <h1>Revirr.com</h1>
+  <iframe src="https://giphy.com/embed/XfsbRC65J4qRx2mrpj" width="480" height="241" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href=""></a></p>
+  <p>Revirr is here to help with the process by offering true entry level professional positions as well as a guide to show what you may qualify for based on degree, experience, skills, and interests.</p>
+  <div  style= "font-size:24px;">
+<h4> Powered By </h4>
+<i class="fab fa-html5" padding="10px" ></i>
+
+<i class="fab fa-wordpress"></i>
+<i class="fab fa-css3-alt"></i>
+<i class="fab fa-php"></i>
+
+</div>
+  <p><a href="https://revirr.com/" target="_blank"><button>Check out Revirr.com</button></a></p>
+</div>
+<br>
+<div>
+<h2 style="text-align:center"></h2>
+
+<div class="card">
+  <h1><i>#Barrowthename</i></h1>
+  <iframe src="https://giphy.com/embed/YlGOAeFALgc1mEaQ2R" width="480" height="244" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href=""></a></p>
+  <p>Wedding Wire has nothing on this. With a little bit of code and magic a wedding page is made.</p>
+  <div  style= "font-size:24px;">
+<h4> Powered By </h4>
+<i class="fab fa-html5" padding="10px" ></i>
+<i class="fab fa-codepen"></i>
+<i class="fab fa-js-square"></i>
+<i class="fab fa-css3-alt"></i>
+
+</div>
+  <p><a href="https://codepen.io/disgruntledvet/full/KLGNNv" target="_blank"><button>Check out #Barrowthename</button></a></p>
+
+</div>
+
+<br>
+
+<h2 style="text-align:center"></h2>
+
+<div class="card2">
+  <h1>PortResume</h1>
+  <iframe src="https://giphy.com/embed/lnhJDsjYG1ptKKwi9f" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href=""></a></p>
+  <p>A portfolio that is also a resume.</p>
+  <div  style= "font-size:24px;">
+<h4> Powered By </h4>
+<i class="fab fa-html5" padding="10px" ></i>
+<i class="fab fa-js-square"></i>
+<i class="fab fa-github-square"></i>
+<i class="fab fa-css3-alt"></i>
+
+</div>
+  <p><a href="https://revirr.com/"><button>Data Check</button></a></p>
+</div>
+<br>
+
+
+
+
+<!-- Blogs You can add more here -->
+<div id="aboutme">
+<br>
+
+<div  id="blogs">
+
+  <h1> <b> Blog Posts </b> </h1>
+</div>
+
+<div >
+
+   <h3></h3>
+      <a href= "https://www.zerofox.com/blog/what-the-hack-leaks-breaches/"><img src="dahack.jpeg" alt= "sup" class="pic4"> </a>
+      
+      <a href= "https://www.zerofox.com/blog/zerofox-finds-fortnite-scams/"><img src="alphres.jpeg" alt= "sup" > </a>
+
+ </div>
+    <div>
+      <h3></h3>
+      <a href= "https://www.zerofox.com/blog/twas-the-hack-before-christmas/"><img src="dachris.jpeg" alt="nice" class="pic4"></a>
+      <a href= "https://www.zerofox.com/blog/what-the-hack-leaks-breaches/"><img src="dahack.jpeg" alt= "sup" class="pic4"> </a>
+      
+    </div>
+    <div>
+      <h3></h3>        
+      <img>
+    </div>
+  </div>
+  <br>
+  <div id="aboutme">
+
+
+
+
+
+<!-- The Journey A youtube video will go here  -->
+  <h1> <b> The Journey </b> </h1>
+</div>
+</div>
+  <br>
+
+
+ 
+
+
+ <!-- Content Form -->
+  <div class="container" id="about">
+    <h1><b></b> </h1>
+  <form action="mailto:skylarbarrowman@gmail.com" method="post" enctype="text/plain">
+  <div class="row">
+    <div class="col-25">
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+    </div>
+    <div class="col-75">
+      <select id="title" name="title">
+        <option value="recruiter">Recruiter</option>
+        <option value="reviewer">Reviewer</option>
+        <option value="hiring manager">Hiring manager</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
   </div>
 </div>
-
-</body>
-
-
-
-
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        
-    </div>
-
-    
-    
- 
- 
-  <div id="contact">
-    
-    
-
-    
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <p><span class="glyphicon glyphicon-map-marker"></span>Baltimore, US</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: skylarbarrowman@gmail.com </p>
-    <a class="fa fa-facebook-official" href="https://www.facebook.com/skylar.barrowman"></a>
-    <a class="fa fa-instagram" href="https://www.instagram.com/skylarbarrowman/"></a>
-    <a class="fa fa-github" href=" https://github.com/PortResume"></a>
-    
-    <a class="fa fa-linkedin" href=" https://www.linkedin.com/in/skylar-barrowman-002432151"></a>
- 
-  </footer>
 </div>
-
-
-</div>
-
 </body>
+<br>
+
+
+
+
+
+<!-- footer info -->
+<footer> 
+  <div>
+  <p><b> Skylar Barrowman 2019</b> </p>
+</div>
+<div  style= "font-size:24px;">
+
+<a class="fab fa-medium" href="https://medium.com/@skylarbarrowman"></a>
+<a class="fab fa-github-square" href=" https://github.com/PortResume"></a>
+    
+<a href=" https://www.linkedin.com/in/skylar-barrowman-002432151"><i class="fab fa-linkedin"></i></a>
+
+</footer>
+</div>
 </html>
