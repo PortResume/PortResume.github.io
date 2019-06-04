@@ -250,7 +250,7 @@ input[type=submit]:hover {
   opacity: 0.7;
 }
 
-card4 {
+.card4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 100%;
   text-align: center;
@@ -277,6 +277,7 @@ card4 {
 .card4 button:hover {
   opacity: 0.7;
 }
+
 
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
