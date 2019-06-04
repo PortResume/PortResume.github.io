@@ -1,0 +1,74 @@
+.blogimg {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 300px;
+    color: white;
+    background-image:  url("hacked.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .blogimg2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 300px;
+    color: white;
+    background-image:  url("christmas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .blogimg3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 300px;
+    color: white;
+    background-image:  url("https://cdn-images-1.medium.com/max/800/1*k7SE9mvHCe5vHQ7Sh85d0g.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .blogmain {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 500px;
+    color: white;
+    background-image:  url("https://i.ytimg.com/vi/aj4uqo3Kglw/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .blogmain-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+  .blogimgface {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 300px;
+    color: white;
+    background-image:  url("awpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .footer {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 500px;
+    color: white;
+    background-image:  url("https://i.ytimg.com/vi/aj4uqo3Kglw/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
