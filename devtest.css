@@ -71,6 +71,8 @@
       background: white;
       padding: 10px;
       text-align: center;
+      float: left;
+      position: relative;
 
 }
 
