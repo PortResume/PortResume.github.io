@@ -9,7 +9,7 @@
   padding: 10px;
   color:white;
   text-align: center;
-  height:735px;
+  height:100%;
 
   
 }
@@ -17,7 +17,8 @@
 .column1 {
   float: left;
   width: 55%;
-  height:735px;
+  height:100%;
+  overflow:hidden;
 
   padding: 10px;
 }
