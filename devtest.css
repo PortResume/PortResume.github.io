@@ -6,10 +6,10 @@
 .column {
   float: left;
   width: 45%;
-  height: 100%;
   padding: 10px;
   color:white;
   text-align: center;
+  height:735px;
 
   
 }
@@ -17,7 +17,7 @@
 .column1 {
   float: left;
   width: 55%;
-  height: 100%;
+  height:735px;
 
   padding: 10px;
 }
@@ -131,7 +131,7 @@ img.column1 {
 @media screen and (max-width: 600px) {
   .column1 {
     width: 100%;
-    
+
 
   }
 }
