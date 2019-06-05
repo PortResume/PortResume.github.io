@@ -6,7 +6,7 @@
 .column {
   float: left;
   width: 45%;
-  height: 619px;
+  height: 100%;
   padding: 10px;
   color:white;
   text-align: center;
@@ -17,7 +17,7 @@
 .column1 {
   float: left;
   width: 55%;
-  height: 619px;
+  height: 100%;
 
   padding: 10px;
 }
@@ -42,7 +42,6 @@
 .column4 {
   float: left;
   width: 100%;
-  font-family: arial, sans-serif;
 
   
   color:white;
@@ -64,7 +63,7 @@
 }
 
 .container {
-      max-width: 860px;
+      max-width: 1000px;
       margin: auto;
       background: white;
       padding: 10px;
@@ -148,6 +147,7 @@ img.column1 {
 @media screen and (max-width: 600px) {
   .column3 {
     width: 100%;
+
     
 
   }
