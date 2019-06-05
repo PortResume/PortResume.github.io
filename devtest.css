@@ -5,8 +5,8 @@
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 40%;
-  height: 510px;
+  width: 45%;
+  height: 600px;
   padding: 10px;
   color:white;
   text-align: center;
@@ -16,8 +16,8 @@
 
 .column1 {
   float: left;
-  width: 60%;
-  height: 510px;
+  width: 55%;
+  height: 600px;
 
   padding: 10px;
 }
@@ -47,7 +47,7 @@
   
   color:white;
 
-  padding: 10px;
+  
 }
 
 .column5 {
@@ -64,8 +64,8 @@
 }
 
 .container {
-      max-width: 650px;
-        margin: auto;
+      max-width: 860px;
+      margin: auto;
       background: white;
       padding: 10px;
       text-align: center;
@@ -94,7 +94,7 @@ hr {
     padding: 0;
 }
 .button1 button {
-  border: none;
+  border-radius: 10px;
   outline: 0;
   padding: 12px;
   color: white;
