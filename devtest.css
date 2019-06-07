@@ -11,8 +11,8 @@ body {
   float: left;
   width: 40%;
   padding: 0 10px;
-  height:300px;
-  max-height::300px;
+  height:315px;
+  max-height::315px;
 }
 /* timer column */
 
@@ -20,8 +20,8 @@ body {
   float: left;
   width: 60%;
   padding: 0 10px;
-  height:300px;
-  max-height::300px;
+  height:315px;
+  max-height::315px;
 
 }
 /* photo column */
@@ -157,7 +157,7 @@ body {
   padding: 16px;
   text-align: center;
   background-color: #71a1be;
-  height:325px;
+  height:330px;
 }
 /* timer */
 
@@ -166,7 +166,7 @@ body {
   padding: 16px;
   text-align: center;
   background-color:#71a1be;  
-  height:325px;
+  height:330px;
     
 
 }
