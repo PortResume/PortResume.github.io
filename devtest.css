@@ -2,114 +2,62 @@
   box-sizing: border-box;
 }
 
-/* Create four equal columns that floats next to each other */
+body {
+  background-color: #f1f1f1;
+}
+
+/* calendar*/
 .column {
   float: left;
-  width: 45%;
-  padding: 10px;
-  color:white;
-  text-align: center;
-  height:710px;
-  max-height: 710px;
-
-  
+  width: 40%;
+  padding: 0 10px;
+  height:300px;
+  max-height::300px;
 }
-
-.column1 {
-  float: left;
-  width: 55%;
-  height:710px;
-  overflow:hidden;
-  max-height: 710px;
-
-  padding: 10px;
-}
+/* timer column */
 
 .column2 {
   float: left;
-  width: 30%;
-  height: 300px;
-  color:white;
+  width: 60%;
+  padding: 0 10px;
+  height:300px;
+  max-height::300px;
 
-  padding: 10px;
 }
+/* photo column */
 
 .column3 {
   float: left;
-  width: 70%;
-  height: 300px;
-  color:white;
-
-  padding: 10px;
+  width: 50%;
+  padding: 35px 10px 0px 10px;
 }
+/* what you will learn column*/
+
 .column4 {
   float: left;
-  width: 100%;
-
-  
-  color:white;
-
-  
+  width: 50%;
+  padding: 35px 10px 0px 0px;
 }
-
+/* pink*/
 .column5 {
-  background-color:#05263a;
   float: left;
   width: 100%;
-  height:60px;
+  padding: 20px 10px 0px 0px;
+}
+/* dark blue column */
+.column6 {
+  float: left;
+  width: 100%;
+  padding: 20px 10px 0px 0px;
+  background-color:#05263a;
+  width: 100%;
   position: relative;
-
-  
   color:white;
-
   padding: 10px;
 }
 
-.container {
-      max-width: 1000px;
-      margin: auto;
-      background: white;
-      padding: 10px;
-      text-align: center;
-      
-      
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  
-}
-.heading{
-    text-align: center;
-
-  }
-    
-hr {
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 7px  solid #71a1be;
-
-    margin: 1em 20px;
-    padding: 0;
-}
-.button1 button {
-  border-radius: 10px;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #005282;
-  text-align: center;
-  cursor: pointer;
-  width: 300px;
-  font-size: 18px;
-}
-
-.column5:after {
+/* triangle */
+.column6:after {
   border-right: solid 70px transparent;
   border-left: solid 70px transparent;
   border-top: solid 50px #05263a;
@@ -123,52 +71,164 @@ hr {
   width: 0;
 }
 
-img.column1 {
-  font-family: "Lato", sans-serif;
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+
+/* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
+   
   }
 }
-@media screen and (max-width: 600px) {
-  .column1 {
-    width: 100%;
-
-
-  }
-}
-
 @media screen and (max-width: 600px) {
   .column2 {
     width: 100%;
-    
-
+    display: block;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .column3 {
     width: 100%;
-
-    
-
+    display: block;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 100%;
+    display: block;
+  }
+}
 @media screen and (max-width: 600px) {
   .column4 {
     width: 100%;
-    
-
+    display: block;
   }
 }
 @media screen and (max-width: 600px) {
   .column5 {
     width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column6 {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column7 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.dev {
+
+      margin: auto;
+      background: white;
+      text-align: center;
+      
+      }
+      
+ pre{
+
+      margin: auto;
+      background: white;
+      text-align: center;
+      
+      }
+ 
+/* calendar */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #71a1be;
+  height:325px;
+}
+/* timer */
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:#71a1be;  
+  height:325px;
     
 
-  }
+}
+/* photo column/card */
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:#05263a;
+    height:800px;
+    color: white;
+
+}
+/* what your going to learn card/column */
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+    height:800px;
+
+}
+/* pink card/column */
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f58c99;
+  color:white;
+
+}
+
+.container{
+
+  max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 10px;
+      text-align: center;
+}
+/* buttons */
+
+.button1 button {
+  border-radius: 10px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #005282;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  font-size: 18px;
+}
+/* line */
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 7px  solid #71a1be;
+
+    margin: 1em 20px;
+    padding: 0;
 }
