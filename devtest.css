@@ -188,6 +188,7 @@ body {
   text-align: center;
   background-color: #f1f1f1;
     height:800px;
+  overflow:hidden;
 
 }
 /* pink card/column */
