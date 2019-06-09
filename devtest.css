@@ -42,13 +42,13 @@ body {
 .column5 {
   float: left;
   width: 100%;
-  padding: 20px 10px 0px 0px;
+  padding: 20px 10px 0px 10px;
 }
 /* dark blue column */
 .column6 {
   float: left;
   width: 100%;
-  padding: 20px 10px 0px 0px;
+  padding: 20px 10px 0px 10px;
   background-color:#05263a;
   width: 100%;
   position: relative;
