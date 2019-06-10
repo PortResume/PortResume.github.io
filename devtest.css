@@ -177,7 +177,7 @@ body {
   padding: 16px;
   text-align: center;
   background-color:#05263a;
-    height:805px;
+    height:auto;
     color: white;
 
 }
@@ -187,7 +187,7 @@ body {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-    height:805px;
+    height:auto;
   overflow:hidden;
 
 }
