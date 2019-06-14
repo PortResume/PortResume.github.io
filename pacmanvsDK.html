@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title> dev test </title>
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Custom CSS -->
+      <link href="pacmanvsDK.css" rel="stylesheet">
+   </head>
+    <body>
+      <!--|| intro ||-->
+      <div class="container">
+     
+         <!--||  intro ||-->
+         <!--||  calendar/ timer ||-->
+         <div class="row">
+            <div class="column5">
+               <div class="card5">
+               
+               <img src="https://i.ytimg.com/vi/aj4uqo3Kglw/maxresdefault.jpg  " alt="Avatar" style="width:100% ">
+               
+               <h1>COMING SOON</h1>
+    <hr>
+      <!--||  timer will go here ||-->
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+                    
+            </div>
+            
+            <br>
+            <!--||  calendar/ timer ||-->
+            <!--||  photo ||-->
+            <div class="column3">
+               <div class="card3">
+                  <br>
+                  
+                  <img src="https://media.licdn.com/dms/image/C4E03AQH4QBGVpq21zw/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=6W4nSywhzsayPZVPcWc-wJ6csFilLA2AU4-56SaQaJY  " alt="Avatar" style="width:100% ">
+                  </br>
+                  <p style="font-family:"Lato", sans-serif;
+                  "> Combat veteran turned dev Nerd </p>
+                  <p style= "font-family: arial, sans-serif; font-size:25px;"
+                     >Skylar Barrowman </p>
+                  </br>
+               </div>
+            </div>
+            <!--||  photo ||-->
+            <!--||  what you will learn ||-->
+            <div class="column4">
+               <div class="card4">
+                  <p><b>I'm going to show you...</b></p>
+                  </b>
+                  <br>
+                  <p align="left" style="font-family: arial, sans-serif; line-height: 1.8;"> <img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvLItPsOasFqOIW63QptKSZXnDTYAbILGRgCvolicVrHOwKuM" height="60px" width="60px">How you can take my template and make it your very own from your phone</p>
+                  <br>
+                  </b>
+                  </b>
+                  <p align="left" style="font-family: arial, sans-serif; line-height: 1.8;"
+                     >
+                     <img class="img" align="left" style="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvLItPsOasFqOIW63QptKSZXnDTYAbILGRgCvolicVrHOwKuM" height="60px" width="60px">I recommend using codepen or w3school while doing this tutorial. 
+                  </p>
+                  <br>
+                  <p align="left" style="font-family: arial, sans-serif; line-height: 1.8;"> <img class="img" align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvLItPsOasFqOIW63QptKSZXnDTYAbILGRgCvolicVrHOwKuM" height="60px" width="60px"> Template made with  HTML, CSS, and JS.</p>
+                  <br>
+                  <p align="left" style="font-family: arial, sans-serif; line-height: 1.8;"> <img class="img" align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvLItPsOasFqOIW63QptKSZXnDTYAbILGRgCvolicVrHOwKuM" height="60px" width="60px">I have set it up so you can plug and play choose your very own images and text </p>
+                  <br>
+                  <p align="left"  style="font-family: arial, sans-serif; line-height: 1.8;"> <img class="img" style="padding-left: 0px"  align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvLItPsOasFqOIW63QptKSZXnDTYAbILGRgCvolicVrHOwKuM" height="px" width="60px">This is first and foremost a mobile responsive web page. I mean we are creating it from our very own devices.</p>
+               </div>
+            </div>
+            <!--||  what you will learn ||-->
+            <!--||  pacman ||-->
+            <div class="column5">
+               <div class="card5">
+               
+               <img src="http://lh3.googleusercontent.com/H8hhcUas7f9Pi4aMLTQfSTVk1wwE1d_SPYYGldXn9S8GARJis2ED4EpnIfXzfBhTP8KZM64bFnmgowpU3Ct7b7OznwcRakNOM3mB2KRr=s660  " alt="Avatar" style="width:100% ">
+                    
+
+      <!--||   pacman ||-->
+     
+      
+      <!--||  Check All ||-->
+      <script>
+         function toggle(source) {
+             var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+             for (var i = 0; i < checkboxes.length; i++) {
+                 if (checkboxes[i] != source)
+                     checkboxes[i].checked = source.checked;
+             }
+         }
+      </script>
+      <!--||  Check All ||-->
+      <!--||  Verified Message if not chacked ||-->
+      <script>
+         document.getElementById("field_terms").setCustomValidity("Please Check the box before continuing");
+      </script>
+      <!--||  Verified Message if not chacked ||-->
+      <!--||  Might update later with new js ||-->
+ <!--|| Timer js  ||-->
+      <script>
+        
+        var countDownDate = new Date("Aug 20, 2019 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+</script>
+      </form>
+   </body>
+</html>
+
+<!--|| some links i will use  ||-->
+<!--|| donkey kong   ||-->
+<!--|| https://i.ytimg.com/vi/aj4uqo3Kglw/maxresdefault.jpg||-->
+<!--|| me  ||-->
+<!--|| https://media.licdn.com/dms/image/C4E03AQH4QBGVpq21zw/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=6W4nSywhzsayPZVPcWc-wJ6csFilLA2AU4-56SaQaJY ||-->
+
+<!--|| pacman  ||-->
+<!--|| https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzvLItPsOasFqOIW63QptKSZXnDTYAbILGRgCvolicVrHOwKuM  ||-->
+
+<!--|| google pacman  ||-->
+<!--|| http://lh3.googleusercontent.com/H8hhcUas7f9Pi4aMLTQfSTVk1wwE1d_SPYYGldXn9S8GARJis2ED4EpnIfXzfBhTP8KZM64bFnmgowpU3Ct7b7OznwcRakNOM3mB2KRr=s660  ||-->
+
+
+
+<!--|| now to finish this thing up i will take the js below that i actually grabbed feom W3schools why try and reinvent the wheel when you can recycle old code. the js script will countdown days until the donkey kong pacman fight!!!!! ||-->
+
+<!--|| <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 20, 2019 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+   ||-->
