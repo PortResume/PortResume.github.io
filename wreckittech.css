@@ -1,6 +1,6 @@
 .blogimg {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 100%;
+    width: 100%;
     height: 300px;
     color: white;
     background-image:  url("hacked.jpg");
@@ -11,7 +11,7 @@
 
   .blogimg2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 100%;
+    width: 100%;
     height: 300px;
     color: white;
     background-image:  url("christmas.jpg");
@@ -22,7 +22,7 @@
 
   .blogimg3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 100%;
+    width: 100%;
     height: 300px;
     color: white;
     background-image:  url("https://cdn-images-1.medium.com/max/800/1*k7SE9mvHCe5vHQ7Sh85d0g.jpeg");
