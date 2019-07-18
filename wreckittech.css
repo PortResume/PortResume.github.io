@@ -72,3 +72,32 @@
     background-size: cover;
     position: relative;
   }
+@media screen and (max-width: 600px) {
+  .blogimg  {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .blogimg2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .blogimg3  {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .blogmain  {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
